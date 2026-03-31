@@ -57,6 +57,8 @@ Esta plantilla es un punto de partida para crear proyectos con documentación el
 * Las páginas web se generan en la carpeta
    * **home** está en **/_site/index.html**
    * **El resto de páginas** se generan en **/_site/pages/...** y se van organizando en subcarpetas según el nivel de la página (nivel 1, nivel 2, etc.)
+* Una vez completados los cambios se puede empezar a generar la documentación.
+* Es recomendable generar un área de trabajo en VSCode para facilitar la gestión de los archivos del proyecto.
 
 ---
 
