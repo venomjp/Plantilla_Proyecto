@@ -1,0 +1,57 @@
+[
+            {
+                "url": "/Plantilla_Proyecto/tags/nivel 1",
+                "title": "Tag nivel 1",
+                "content": " nivel 1 "
+            },
+            {
+                "url": "/Plantilla_Proyecto/tags/nivel 2",
+                "title": "Tag nivel 2",
+                "content": " nivel 2 "
+            },
+            {
+                "url": "/Plantilla_Proyecto/tags/nivel 3",
+                "title": "Tag nivel 3",
+                "content": " nivel 3 "
+            },
+            {
+                "url": "/Plantilla_Proyecto/tags/home",
+                "title": "Tag home",
+                "content": " home "
+            },
+        {
+            "url": "/Plantilla_Proyecto/posts/post-1/",
+            "title": "Post 1",
+            "content": "Descripción del post 1 post Qué tipo de Contenido incluirAvances en el proyectoCambios importantes que surgen durante el desarrolloProblemas encontrados en el procesoSoluciones aplicadas a esos problemasDistintas Versiones de firmware o softwareNotas técnicasDecisiones de diseñoAclaraciones sobre el proyectoCosas aprendidasRecordatorios de aciertos y errores que me gustaría no olvidar"
+        },
+        {
+            "url": "/Plantilla_Proyecto/pages/1-nivel1/",
+            "title": "Página de nivel 1",
+            "content": "Descripción de la página de nivel 1 nivel 1 Página de nivel 1"
+        },
+        {
+            "url": "/Plantilla_Proyecto/pages/1-nivel1/1_1-nivel2/",
+            "title": "Página de nivel 2",
+            "content": "Descripción de la página de nivel 2 nivel 2 Página de nivel 2"
+        },
+        {
+            "url": "/Plantilla_Proyecto/pages/1-nivel1/1_1-nivel2/1_1_1-nivel3/",
+            "title": "Página de nivel 3",
+            "content": "Descripción de la página de nivel 3 nivel 3 Página de nivel 3"
+        },
+        {
+            "url": "/Plantilla_Proyecto/posts/",
+            "title": "./core/libdoc_blog.liquid",
+            "content": "  2026-03-24 Post 1 Descripción del post 1 1"
+        },
+        {
+            "url": "/Plantilla_Proyecto/tags/",
+            "title": "./core/libdoc_tags.liquid",
+            "content": "  nivel 1 1 página nivel 2 1 página nivel 3 1 página home 1 página"
+        },
+        {
+            "url": "/Plantilla_Proyecto/",
+            "title": "Plantilla para Proyectos",
+            "content": "Página HOME del proyecto home IntroducciónBienvenida al Proyecto X.Créditos y referenciasSi las hay, aquí se pueden poner los créditos y referencias del proyecto.LicenciaPlantilla para Proyectos © 2026 by Juan Pedro Perianes is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"
+        }
+]

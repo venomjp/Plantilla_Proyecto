@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
+    <title>Plantilla de Proyecto</title>
+    <subtitle>Proyecto con Documentación y página web integrada</subtitle>
+    <link href="feed.xml" rel="self" />
+    <link href="#/feed.xml" />
+    <updated>2026-03-24T00:00:00Z</updated>
+    <id>#/feed.xml</id>
+    <author>
+        <name>11ty LibDoc</name>
+    </author>
+        <entry>
+            <title>Post 1</title>
+            <link href="#/posts/post-1/" />
+            <updated>2026-03-24T00:00:00Z</updated>
+            <id>#/posts/post-1/</id>
+            <author>
+                <name>11ty LibDoc</name>
+            </author>
+            <content type="html">
+                &lt;h1&gt;Qué tipo de Contenido incluir&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Avances en el proyecto&lt;/li&gt;
+&lt;li&gt;Cambios importantes que surgen durante el desarrollo&lt;/li&gt;
+&lt;li&gt;Problemas encontrados en el proceso&lt;/li&gt;
+&lt;li&gt;Soluciones aplicadas a esos problemas&lt;/li&gt;
+&lt;li&gt;Distintas Versiones de firmware o software&lt;/li&gt;
+&lt;li&gt;Notas técnicas&lt;/li&gt;
+&lt;li&gt;Decisiones de diseño&lt;/li&gt;
+&lt;li&gt;Aclaraciones sobre el proyecto&lt;/li&gt;
+&lt;li&gt;Cosas aprendidas&lt;/li&gt;
+&lt;li&gt;Recordatorios de aciertos y errores que me gustaría no olvidar&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        </entry>
+</feed>

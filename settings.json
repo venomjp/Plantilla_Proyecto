@@ -1,0 +1,52 @@
+{
+    "siteTitle": "Plantilla de Proyecto",
+    "siteDescription": "Proyecto con Documentación y página web integrada",
+    "author": "Juan Pedro Perianes",
+    "faviconUrl": "/assets/myfavicon.png",
+    "blogTitle": "Bitácora",
+    "blogDescription": "Avances, problemas, soluciones, notas técnicas, decisiones de diseño, recordatorio de aciertos y errores, etc.",
+    "productionUrl": "#",
+    "customLinks": [
+        {
+            "url": "https://trello.com/u/juanpedroperianes/boards",
+            "text": "Trello"
+        },
+        {
+            "url": "https://uc3m-my.sharepoint.com/personal/perianes_pa_uc3m_es/_layouts/15/guestaccess.aspx?share=IgAl9cMGAfHQSreC1GoyJ2FLAXL6GfUZzBRQ7ZaT6tLFHdQ&email=venom.jpp%40gmail.com&e=pOVtg7",
+            "text": "OneNote"
+        },
+        {
+            "url": "https://drive.google.com/drive/folders/1LzRuUlFFFk5JhYCQ9tD-rdzyxhQtSX2Y?usp=drive_link",
+            "text": "Nube"
+        },
+        {
+            "url": "https://mypa65.autodesk360.com/g/projects/20240826795409376/data/dXJuOmFkc2sud2lwcHJvZDpmcy5mb2xkZXI6Y28uM1pCSG81MkZRTC1OLXN4em1PVjUtQQ==",
+            "text": "Fusion"
+        },
+        {
+            "url": "https://github.com/venomjp",
+            "text": "GitHub"
+        }
+    ],
+    "lang": "es",
+    "htmlBasePathPrefix": "/Plantilla_Proyecto/",
+    "hljsLanguages": [
+        "xml",
+        "html",
+        "javascript",
+        "json",
+        "yml",
+        "yaml",
+        "liquid",
+        "markdown",
+        "liquid",
+        "css",
+        "arduino",
+        "bash",
+        "python",
+        "cpp",
+        "c",
+        "gcode"
+    ],
+    "tocEnabled": true
+}

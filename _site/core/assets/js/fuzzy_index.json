@@ -1,0 +1,37 @@
+[
+        {
+            "url": "/Plantilla_Proyecto/posts/post-1/",
+            "title": "Post 1",
+            "description": "Descripción del post 1 post"
+        },
+        {
+            "url": "/Plantilla_Proyecto/pages/1-nivel1/",
+            "title": "Página de nivel 1",
+            "description": "Descripción de la página de nivel 1 nivel 1"
+        },
+        {
+            "url": "/Plantilla_Proyecto/pages/1-nivel1/1_1-nivel2/",
+            "title": "Página de nivel 2",
+            "description": "Descripción de la página de nivel 2 nivel 2"
+        },
+        {
+            "url": "/Plantilla_Proyecto/pages/1-nivel1/1_1-nivel2/1_1_1-nivel3/",
+            "title": "Página de nivel 3",
+            "description": "Descripción de la página de nivel 3 nivel 3"
+        },
+        {
+            "url": "/Plantilla_Proyecto/posts/",
+            "title": "./core/libdoc_blog.liquid",
+            "description": " "
+        },
+        {
+            "url": "/Plantilla_Proyecto/tags/",
+            "title": "./core/libdoc_tags.liquid",
+            "description": " "
+        },
+        {
+            "url": "/Plantilla_Proyecto/",
+            "title": "Plantilla para Proyectos",
+            "description": "Página HOME del proyecto home"
+        }
+]

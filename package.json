@@ -1,0 +1,25 @@
+{
+  "name": "plantilla-proyectos",
+  "version": "1.0",
+  "description": "Plantilla para hacer proyectos con documentación web",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Juan Pedro Perianes",
+  "license": "CC BY-NC-SA 4.0",
+  "type": "module",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve",
+    "build-ghpages": "npx @11ty/eleventy --pathprefix",
+    "clean": "rimraf _site .cache"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.5",
+    "@11ty/eleventy-img": "^6.0.4",
+    "@11ty/eleventy-navigation": "^0.3.5",
+    "@11ty/eleventy-plugin-rss": "^2.0.4",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "rimraf": "^6.1.3"
+  }
+}
