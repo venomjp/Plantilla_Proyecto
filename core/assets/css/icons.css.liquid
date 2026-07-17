@@ -15,10 +15,10 @@ eleventyExcludeFromCollections: true
 }
 {% for iconName in libdocSystem.icons %}
 .icon-{{ iconName }} {
-    mask-image: url('{{ libdocConfig.htmlBasePathPrefix }}/core/assets/icons/{{ iconName }}.svg');
+    mask-image: url('{{ libdocConfig.htmlBasePathPrefix }}core/assets/icons/{{ iconName }}.svg');
 }
 {% endfor %}
 main a[href^="https://"]:not([href^="https://eleventy-libdoc"])::after,
 main a.__external-link::after {
-    mask-image: url('{{ libdocConfig.htmlBasePathPrefix }}/core/assets/icons/arrow-square-out.svg');
+    mask-image: url('{{ libdocConfig.htmlBasePathPrefix }}core/assets/icons/arrow-square-out.svg');
 }
