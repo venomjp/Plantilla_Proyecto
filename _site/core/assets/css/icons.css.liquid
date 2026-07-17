@@ -20,5 +20,5 @@ eleventyExcludeFromCollections: true
 {% endfor %}
 main a[href^="https://"]:not([href^="https://eleventy-libdoc"])::after,
 main a.__external-link::after {
-    mask-image: url('{{ libdocConfig.htmlBasePathPrefix }}core/assets/icons/arrow-square-out.svg');
+    mask-image: url('{{ libdocConfig.htmlBasePathPrefix }}/core/assets/icons/arrow-square-out.svg');
 }
