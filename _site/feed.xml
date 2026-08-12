@@ -4,11 +4,31 @@
     <subtitle>Proyecto con Documentación y página web integrada</subtitle>
     <link href="feed.xml" rel="self" />
     <link href="#/feed.xml" />
-    <updated>2026-03-24T00:00:00Z</updated>
+    <updated>2026-08-12T00:00:00Z</updated>
     <id>#/feed.xml</id>
     <author>
         <name>11ty LibDoc</name>
     </author>
+        <entry>
+            <title>Post 2</title>
+            <link href="#/posts/post-2/" />
+            <updated>2026-08-12T00:00:00Z</updated>
+            <id>#/posts/post-2/</id>
+            <author>
+                <name>11ty LibDoc</name>
+            </author>
+            <content type="html">
+                &lt;h1&gt;Modificaciones y Ajustes&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Corrección iconos&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Los iconos no estaban apareciendo correctamente, por lo que hubo que corregir la ruta de los mismos en el archivo &lt;em&gt;core/assets/css/icons.css.liquid&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Botón &amp;quot;Ir atrás&amp;quot;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;El botón &amp;quot;Ir atrás&amp;quot; no estaba funcionando correctamente, por lo que he tenido que corregir el archivo &lt;em&gt;_includes/libdoc_page.liquid&lt;/em&gt;, cambiando el cálculo del prefijo de la ruta y la corrección de la profundidad para que funcione correctamente en las páginas y en el blog.&lt;/p&gt;
+</content>
+        </entry>
         <entry>
             <title>Post 1</title>
             <link href="#/posts/post-1/" />

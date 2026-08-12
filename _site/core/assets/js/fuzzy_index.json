@@ -33,5 +33,10 @@
             "url": "/Plantilla_Proyecto/",
             "title": "Plantilla para Proyectos",
             "description": "Página HOME del proyecto home"
+        },
+        {
+            "url": "/Plantilla_Proyecto/posts/post-2/",
+            "title": "Post 2",
+            "description": "Modificaciones y Ajustes 1 post"
         }
 ]

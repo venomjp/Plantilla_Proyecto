@@ -42,7 +42,7 @@
         {
             "url": "/Plantilla_Proyecto/posts/",
             "title": "./core/libdoc_blog.liquid",
-            "content": "  2026-03-24 Post 1 Descripción del post 1 1"
+            "content": "  2026-08-12 Post 2 Modificaciones y Ajustes 1 2026-03-24 Post 1 Descripción del post 1 1"
         },
         {
             "url": "/Plantilla_Proyecto/tags/",
@@ -53,5 +53,10 @@
             "url": "/Plantilla_Proyecto/",
             "title": "Plantilla para Proyectos",
             "content": "Página HOME del proyecto home IntroducciónBienvenida al Proyecto X.Créditos y referenciasSi las hay, aquí se pueden poner los créditos y referencias del proyecto.LicenciaPlantilla para Proyectos © 2026 by Juan Pedro Perianes is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"
+        },
+        {
+            "url": "/Plantilla_Proyecto/posts/post-2/",
+            "title": "Post 2",
+            "content": "Modificaciones y Ajustes 1 post Modificaciones y AjustesCorrección iconosLos iconos no estaban apareciendo correctamente, por lo que hubo que corregir la ruta de los mismos en el archivo core/assets/css/icons.css.liquidBotón &amp;quot;Ir atrás&amp;quot;El botón &amp;quot;Ir atrás&amp;quot; no estaba funcionando correctamente, por lo que he tenido que corregir el archivo _includes/libdoc_page.liquid, cambiando el cálculo del prefijo de la ruta y la corrección de la profundidad para que funcione correctamente en las páginas y en el blog."
         }
 ]
