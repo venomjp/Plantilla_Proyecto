@@ -11,6 +11,8 @@ concurrency:
 
 jobs:
   build:
+    # Solo publica si el repositorio es público (en uno privado el job se omite)
+    if: ${{ github.event.repository.private == false }}
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -46,6 +48,7 @@ jobs:
           path: _site/
 
   deploy:
+    if: ${{ github.event.repository.private == false }}
     needs: build
     runs-on: ubuntu-latest
     permissions:
