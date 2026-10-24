@@ -70,7 +70,6 @@ npm run start
 ***npm run clean*** - borra la carpeta `_site/` y la reconstruye desde cero.
 ***npm run start*** - arranca un servidor local de desarrollo con recarga automática para comprobar que todo funciona.
 
-
 * **Buenas prácticas:**
 Usa siempre `npm ci` (Clean Install) en un clon nuevo: respeta `package-lock.json` instalando exactamente las versiones que se encuentran en él y deja los mismos paquetes en todos tus ordenadores. Si el directorio node_modules existe, lo borra por completo y lo descarga de cero. `npm install` solo cuando cambies dependencias a propósito (que suele definir rangos de versiones, por ejemplo, `^18.2.0`). Si encuentra versiones compatibles más recientes, las descarga y actualiza el archivo `package-lock.json` para reflejar los cambios, después debes hacer un commit en Git que incluya tanto `package.json` como `package-lock.json` actualizado para reflejar los cambios.
 
@@ -201,7 +200,7 @@ Remove-Item Env:PATH_PREFIX
 
 ### GitHub Pages
 
-1. **En cada repositorio nuevo, a mano**: Hay que activar las Pages en `Settings > Pages > Build and deployment > Source: **GitHub Actions**`. Es un ajuste del repositorio, no de los archivos: no viaja con los clones ni con las copias de la plantilla. Mientras no esté activado, el job `build` termina pero el job `deploy` falla. Una vez activado, se mantiene en ese repo. Si un proyecto no se va a publicar en Pages, borra `.github/workflows/build.yml` para que no falle en cada push.
+1. **En cada repositorio nuevo, a mano**: Hay que activar las Pages en `Settings > Pages > Build and deployment > Source: **GitHub Actions**`. Es un ajuste del repositorio, no de los archivos: no viaja con los clones ni con las copias de la plantilla. Mientras no esté activado, el job `build` termina pero el job `deploy` falla. Una vez activado, se mantiene en ese repo. El workflow solo publica si el repositorio es público: en uno privado los jobs aparecen como omitidos (skipped) y no hay error. La visibilidad se comprueba en cada ejecución, así que no hay que tocar el archivo cuando cambia. Al hacer público un repo, activa Pages (ajuste de arriba) y relanza la build desde Actions > Deploy to GitHub Pages > Run workflow, porque cambiar la visibilidad no dispara ninguna ejecución por sí solo.
 2. Cada push a `main` ejecuta `.github/workflows/build.yml`, que construye con `PATH_PREFIX=/<nombre-del-repo>/` y publica `_site/`.
 3. La web queda en `https://<usuario>.github.io/<repo>/`.
 
@@ -211,7 +210,6 @@ Remove-Item Env:PATH_PREFIX
 
 El `_site` que genera `npm run build` es el mismo que sirve GitHub Pages: no hace falta nada específico para el servidor. Se construye en una carpeta con el nombre del proyecto (así el prefijo coincide) y se copia `_site/` a la ruta que Caddy sirve como `/<carpeta>/`. Si la carpeta de build no se llama como esa ruta, construye con `PATH_PREFIX=/<ruta-de-caddy>/`.
 
-> Pendiente de comprobar y documentar: el script `deploy-site` con este flujo.
 
 ***Una web privada se publica solo aquí. No uses GitHub Pages para documentación privada: las webs de Pages son públicas.***
 
