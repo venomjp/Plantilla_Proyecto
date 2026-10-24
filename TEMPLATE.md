@@ -36,7 +36,9 @@ Partimos de la base de que el ordenador que se utilice deberá tener instalado p
 
 ## 2. Crear un proyecto nuevo
 
-No uses **"Download ZIP"**: se pierde la historia y con ella las actualizaciones. Clona y cambia el remoto:
+No uses **"Download ZIP"**: se pierde la historia y con ella las actualizaciones. Clona y cambia el remoto.
+
+Entra en la carpeta donde quieras crear el proyecto y ejecuta:
 
 ```powershell
 git clone https://github.com/venomjp/Plantilla_Proyecto.git Mi-Proyecto
@@ -57,8 +59,17 @@ Después, en GitHub Desktop: File > Add local repository, y elige la carpeta. Si
 
 ```powershell
 npm ci
-npm start
+npm audit
+npm audit fix
+npm run clean
+npm run start
 ```
+***npm ci*** - (clean install) hace una instalación limpia de las dependencias (borra el directorio `node_modules` y lo vuelve a crear).
+***npm audit*** - analiza las dependencias de proyecto
+***npm audit fix*** - actualiza automáticamente las dependencias vulnerables de tu proyecto a versiones seguras sin romper la compatibilidad de código.
+***npm run clean*** - borra la carpeta `_site/` y la reconstruye desde cero.
+***npm run start*** - arranca un servidor local de desarrollo con recarga automática para comprobar que todo funciona.
+
 
 * **Buenas prácticas:**
 Usa siempre `npm ci` (Clean Install) en un clon nuevo: respeta `package-lock.json` instalando exactamente las versiones que se encuentran en él y deja los mismos paquetes en todos tus ordenadores. Si el directorio node_modules existe, lo borra por completo y lo descarga de cero. `npm install` solo cuando cambies dependencias a propósito (que suele definir rangos de versiones, por ejemplo, `^18.2.0`). Si encuentra versiones compatibles más recientes, las descarga y actualiza el archivo `package-lock.json` para reflejar los cambios, después debes hacer un commit en Git que incluya tanto `package.json` como `package-lock.json` actualizado para reflejar los cambios.
