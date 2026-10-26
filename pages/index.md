@@ -1,6 +1,6 @@
 ---
 title: Plantilla de proyectos
-description: Página HOME del proyecto
+description: Plantilla reutilizable para generar proyectos con Documentación y página web integrada
 ---
 <img src="/favicon.png" 
      alt="Mi icono" 
